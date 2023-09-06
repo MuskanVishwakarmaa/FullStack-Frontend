@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./googleform.css">
+</head>
+
+<body>
+    <h1 class="animationbox">Registration Form</h1>
+
+    <fieldset class="form" style="border-radius: 24px;">
+
+        <legend style="background-color:pink; padding:2px; margin:1px; color:black; border:1px solid black; border-radius:20px">Registration Form</legend>
+
+        <form>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter Name"><br><br>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="abc123@gmail.com"><br><br>
+
+            <label>Password</label>
+            <input type="password" name="passwd"><br><br>
+
+            <legend>Choose the Gender</legend>
+            <label><input type="radio" name="male">Male</label><br>
+            <label><input type="radio" name="female">Female</label><br>
+            <label><input type="radio" name="others">Others</label><br><br>
+
+            <legend>Choose your favourite Subject:-</legend>
+            <label><input type="checkbox" name="sub">DSA</label><br>
+            <label><input type="checkbox" name="sub">Java</label><br>
+            <label><input type="checkbox" name="sub">ML</label><br>
+            <label><input type="checkbox" name="sub">Full Stack</label><br><br>
+
+            <label>Date of birth</label>
+            <input type="date" name="date"><br><br>
+
+            <label>Choose file</label>
+            <input type="file" name="file"><br><br>
+
+            <button type="reset">Reset the Data</button>            
+        </form>
+    </fieldset>
+    <button type="submit">Submit</button>
+</body>
+
+</html>

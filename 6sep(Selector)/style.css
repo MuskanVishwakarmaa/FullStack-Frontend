@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+/*attribute selector */
+a[href="https://www.instagram.com/"] {
+    color: violet;
+}
+
+a[href="https://www.facebook.com/"] {
+    color: skyblue;
+}
+
+a[href="https://www.linkedin.com/"] {
+    color: blue;
+}
+
+/* descendent selector */
+div p {
+    color: red;
+}
+
+div#para p {
+    color: burlywood;
+}
+
+p {
+    color: blueviolet;
+}
+
+/* Child selector */
+ul>li {
+    color: purple;
+}
+
+li {
+    color: brown;
+}
+
+ul>div>li {
+    color: aquamarine;
+}
+
+/* Immediate Sibling */
+li+li {
+    color: salmon;
+}
+
+/* General Selector */
+li~
